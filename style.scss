@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+
+body {
+    background: rgb(216, 216, 231);
+}
+
+h1{
+    background: $bgColor;
+    color: $color;
+}
+
+div{
+    @include padd();
+    background: $bgColor;
+    ul{
+        background: gray;
+        color: $color;
+        a{
+            color: green;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+    a{
+        @include textColor($color);
+    }
+}

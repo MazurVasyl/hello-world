@@ -1,0 +1,12 @@
+@mixin padd {
+    padding: 20px 50px;
+}
+
+@mixin textColor($cl) {
+    
+    color: $cl;
+
+    &:hover {
+        color: darken($color: $cl, $amount: 40)
+    }
+}

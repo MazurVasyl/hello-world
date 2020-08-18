@@ -1,12 +1,29 @@
 body {
-  background: pink;
+  background: #d8d8e7;
 }
 
-h1{
-  color: aqua;
-  background: burlywood;
+h1 {
+  background: #1e8f07;
+  color: #da889d;
 }
 
-ul{
-  background: chocolate;
+div {
+  padding: 20px 50px;
+  background: #1e8f07;
+}
+div ul {
+  background: gray;
+  color: #da889d;
+}
+div ul a {
+  color: green;
+}
+div ul a:hover {
+  color: red;
+}
+div a {
+  color: #da889d;
+}
+div a:hover {
+  color: #722438;
 }
